@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+ /* Hide default audio controls */
+ audio {
+  display: none;
+}
+
+/* Style the custom button */
+.audio-button {
+  display: inline-block;
+  position: relative; /* Ensure the button's dimensions are respected */
+  text-decoration: none;
+  padding-right: 30px;
+  margin-bottom: -50px;
+}
+
+/* Style for the button image */
+.audio-button img {
+  width: 350px; /* Adjust image size as needed */
+  height: auto;
+  padding-right: 5px;
+}
+
+/* Style for hover effect */
+.audio-button:hover::after {
+  content: ''; /* Create a pseudo-element for hover effect */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background-color: rgba(234, 222, 227, 0.3); /* Example hover background color */
+  border-radius: 10px; /* Example border radius */
+  transition: background-color 0.3s ease;
+  
+}
+
+/* Style for click effect */
+.audio-button.clicked::after {
+  background-color: rgba(255, 255, 255, 0.221); /* Darker background on click */
+}
+.slider-container{
+  width: 100%;
+  height: 100vh;
+  background-image: url('bini background/9af4fee0-e803-46bb-8271-3790a35a8cb9.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.audio-button p {
+  
+  font-size: 25px; 
+  color: #ffffff; 
+  text-align: center; 
+  font-family: "Jost", sans-serif;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.slider-images{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    
+    
+  }
+  .slider-images img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    opacity:55%;
+    
+  }
+  .slider-img{
+    width: 110px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.9s ease;
+    
+  }
+
+.slider-images .slider-img:first-child, .slider-images .slider-img:last-child{
+  height: 480px;
+}
+.slider-images .slider-img:nth-child(2),  .slider-images .slider-img:nth-child(7){
+  height: 560px;
+}
+.slider-images .slider-img:nth-child(3), .slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5), .slider-images .slider-img:nth-child(6) {
+  height: 665px;
+}
+.slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5){
+  height: 800px;
+}
+
+h1{
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -70%;
+  transform: rotate(270deg);
+  transition: 0.7s ease;
+  word-wrap: pre;
+}
+h1.jo{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 32%;
+    left: -130%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    opacity: 90%;
+    
+    mix-blend-mode: overlay;
+  }
+  h1.gwen{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 37%;
+    left: -80%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+  h1.maloi{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -80%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+  h1.colet{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -80%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+  
+h1.mikha{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -80%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+  h1.sheena{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -105%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+  h1.aiah{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -65%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+  h1.stacey{
+    font-family: "Jost", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: transparent;
+    position: absolute;
+    top: 35%;
+    left: -100%;
+    transform: rotate(270deg);
+    transition: 0.7s ease;
+    word-spacing: 1px;
+    background: rgba (0,0,0,0);
+    padding: 50px;
+    text-shadow: 0px 0px 0px white;
+    mix-blend-mode: overlay;
+    opacity: 90%;
+  }
+.details{
+  position: absolute;
+  bottom: 43px;
+  left: 43px;
+}
+.details h2{
+  font-family: "Jost", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 44px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.7s ease;
+  display: none;
+}
+.details p{
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 33px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.7s ease;
+  display: none;
+}
+.slider-img.active{
+  width: 766px !important;
+  height: 750px !important;
+}
+.slider-img.active h1{
+   display: none;
+}
+.slider-img.active .details p, .slider-img.active .details h2{
+  display: block;
+}
+.gif {
+    animation-play-state: paused;
+  }
