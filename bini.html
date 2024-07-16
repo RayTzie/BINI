@@ -5,32 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BINI PH</title>
   <link rel="stylesheet" href="bini.css">
-
 </head>
-<style>
- 
-</style>
 <body>
-  
   <section class="slider-container">
-
     <!-- Custom audio button with image -->
-  <a href="#" class="audio-button" id="playButton">
-    <img src="bini background/maxresdefault__1_-removebg-preview.png" alt="Play Button">
-    <P>PLAY ME</P>
-  </a>
+    <a href="#" class="audio-button" id="playButton">
+      <img src="bini background/maxresdefault__1_-removebg-preview.png" alt="Play Button">
+      <p>PLAY ME</p>
+    </a>
 
-  <!-- Hidden audio element -->
-  <audio id="audioPlayer" controls>
-    <source src="bini background/audio.mp3" type="audio/mp3">
-    
-  </audio>
+    <!-- Hidden audio element -->
+    <audio id="audioPlayer" controls>
+      <source src="bini background/audio.mp3" type="audio/mp3">
+    </audio>
 
     <div class="slider-images">
       <div class="slider-img">
         <img src="bini jo/jooo.png" alt="1" class="thumbnail">
         <img src="bini jo/joooo.gif" alt="1" class="gif" style="opacity:100%">
-
         <h1 class="jo">JHOANNA</h1>
         <div class="details">
           <h2>BINI JHOANNA</h2>
@@ -102,8 +94,7 @@
         $(this).addClass("active");
       });
     });
-  </script>
-  <script>
+
     // JavaScript to handle audio playback and button state
     const playButton = document.getElementById('playButton');
     const audioPlayer = document.getElementById('audioPlayer');
@@ -118,17 +109,16 @@
       }
     });
   </script>
-    <style>
-      .gif {
-        display: none;
-      }
-      .active .gif {
-        display: block;
-      }
-      .active .thumbnail {
-        display: none;
-      }
-    </style>
+  <style>
+    .gif {
+      display: none;
+    }
+    .active .gif {
+      display: block;
+    }
+    .active .thumbnail {
+      display: none;
+    }
+  </style>
 </body>
 </html>
-  
