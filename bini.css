@@ -385,31 +385,31 @@ h1.mikha{
       font-size: 16px;
       top: 2%;
       bottom: 60px;
-      left: -100%;
+      left: -98% !important;
     }
 
     h1.jo{
-      font-size: 10px;
-      top: -20% !important;
-      left: -85%;
+      font-size: 14px !important;
+      
+      left: -95% !important;
       
       
     }
     h1.stacey{
       font-size: 15px;
       top: -13% !important;
-      left: -85%;
+      left: -85% !important;
       
     }
     h1.aiah{
       font-size: 16px;
       top: -5%;
-      left: -75%;
+      left: -76% !important; 
     }
     h1.sheena{
       font-size: 15px;
-      top: -20% !important;
-      left: -90%;
+      top: -50% !important;
+      left: -89% !important;
     }
     .details h2, .details p {
       font-size: 18px;
@@ -487,31 +487,31 @@ h1.mikha{
       font-size: 16px;
       top: 2%;
       bottom: 60px;
-      left: -100%;
+      left: -98% !important;
     }
 
     h1.jo{
-      font-size: 10px;
-      top: -20% !important;
-      left: -85%;
+      font-size: 14px !important;
+      
+      left: -95% !important;
       
       
     }
     h1.stacey{
       font-size: 15px;
       top: -13% !important;
-      left: -85%;
+      left: -85% !important;
       
     }
     h1.aiah{
       font-size: 16px;
       top: -5%;
-      left: -75%;
+      left: -76% !important; 
     }
     h1.sheena{
       font-size: 15px;
-      top: -20% !important;
-      left: -90%;
+      top: -50% !important;
+      left: -89% !important;
     }
     .details h2, .details p {
       font-size: 18px;
@@ -589,31 +589,31 @@ h1.mikha{
       font-size: 16px;
       top: 2%;
       bottom: 60px;
-      left: -100%;
+      left: -98% !important;
     }
 
     h1.jo{
-      font-size: 10px;
-      top: -20% !important;
-      left: -85%;
+      font-size: 14px !important;
+      
+      left: -95% !important;
       
       
     }
     h1.stacey{
       font-size: 15px;
       top: -13% !important;
-      left: -85%;
+      left: -85% !important;
       
     }
     h1.aiah{
       font-size: 16px;
       top: -5%;
-      left: -75%;
+      left: -76% !important; 
     }
     h1.sheena{
       font-size: 15px;
-      top: -20% !important;
-      left: -90%;
+      top: -50% !important;
+      left: -89% !important;
     }
     .details h2, .details p {
       font-size: 18px;
@@ -691,13 +691,13 @@ h1.mikha{
       font-size: 16px;
       top: 2%;
       bottom: 60px;
-      left: -100%;
+      left: -96%;
     }
 
     h1.jo{
-      font-size: 10px;
+      font-size: 13px;
       top: -20% !important;
-      left: -85%;
+      left: -90%;
       
       
     }
@@ -714,8 +714,8 @@ h1.mikha{
     }
     h1.sheena{
       font-size: 15px;
-      top: -20% !important;
-      left: -90%;
+      top: -15% !important;
+      left: -86%;
     }
     .details h2, .details p {
       font-size: 18px;
