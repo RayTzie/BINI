@@ -318,30 +318,56 @@ h1.mikha{
     animation-play-state: paused;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 320px) {
     .slider-container {
       flex-direction: column;
     }
   
     .audio-button img {
       width: 200px;
-      margin-left: 50px;
+      margin-left: 40px;
     }
   
     .audio-button p {
       font-size: 18px;
-      margin-left: 40px;
+      margin-left: 35px;
+      
+    }
+
+    .audio-button:hover::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
     }
   
+    .audio-button.clicked::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button:hover {
+      /* Additional styles to remove hover effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+  
+    .audio-button.clicked {
+      /* Additional styles to remove clicked effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+
     .slider-images {
       flex-wrap: wrap;
       gap: 10px;
       margin-top: 70px;
-      margin-left: 30px;
+      margin-right: 5px;
+      margin-left: -4px !important;
+      
     }
   
     .slider-img {
       width: 80px;
+      
     }
   
     .slider-images .slider-img:first-child, .slider-images .slider-img:last-child,
@@ -392,6 +418,313 @@ h1.mikha{
     .slider-img.active {
       width: 100% !important;
       height: auto !important;
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .slider-container {
+      flex-direction: column;
+    }
+  
+    .audio-button img {
+      width: 200px;
+      margin-left: 40px;
+    }
+  
+    .audio-button p {
+      font-size: 18px;
+      margin-left: 35px;
+      
+    }
+
+    .audio-button:hover::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button.clicked::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button:hover {
+      /* Additional styles to remove hover effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+  
+    .audio-button.clicked {
+      /* Additional styles to remove clicked effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+
+    .slider-images {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 70px;
+      margin-left: 25px;
+    }
+  
+    .slider-img {
+      width: 80px;
+      
+    }
+  
+    .slider-images .slider-img:first-child, .slider-images .slider-img:last-child,
+    .slider-images .slider-img:nth-child(2), .slider-images .slider-img:nth-child(7),
+    .slider-images .slider-img:nth-child(3), .slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5), .slider-images .slider-img:nth-child(6) {
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 24px;
+      left: -90%;
+    }
+  
+   h1.gwen, h1.maloi, h1.colet, h1.mikha {
+      font-size: 16px;
+      top: 2%;
+      bottom: 60px;
+      left: -100%;
+    }
+
+    h1.jo{
+      font-size: 10px;
+      top: -20% !important;
+      left: -85%;
+      
+      
+    }
+    h1.stacey{
+      font-size: 15px;
+      top: -13% !important;
+      left: -85%;
+      
+    }
+    h1.aiah{
+      font-size: 16px;
+      top: -5%;
+      left: -75%;
+    }
+    h1.sheena{
+      font-size: 15px;
+      top: -20% !important;
+      left: -90%;
+    }
+    .details h2, .details p {
+      font-size: 18px;
+    }
+  
+    .slider-img.active {
+      width: 100% !important;
+      height: auto !important;
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .slider-container {
+      flex-direction: column;
+    }
+  
+    .audio-button img {
+      width: 200px;
+      margin-left: 40px;
+    }
+  
+    .audio-button p {
+      font-size: 18px;
+      margin-left: 35px;
+      
+    }
+
+    .audio-button:hover::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button.clicked::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button:hover {
+      /* Additional styles to remove hover effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+  
+    .audio-button.clicked {
+      /* Additional styles to remove clicked effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+
+    .slider-images {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 70px;
+      padding-left: 35px;
+    }
+  
+    .slider-img {
+      width: 80px;
+      
+    }
+  
+    .slider-images .slider-img:first-child, .slider-images .slider-img:last-child,
+    .slider-images .slider-img:nth-child(2), .slider-images .slider-img:nth-child(7),
+    .slider-images .slider-img:nth-child(3), .slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5), .slider-images .slider-img:nth-child(6) {
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 24px;
+      left: -90%;
+    }
+  
+   h1.gwen, h1.maloi, h1.colet, h1.mikha {
+      font-size: 16px;
+      top: 2%;
+      bottom: 60px;
+      left: -100%;
+    }
+
+    h1.jo{
+      font-size: 10px;
+      top: -20% !important;
+      left: -85%;
+      
+      
+    }
+    h1.stacey{
+      font-size: 15px;
+      top: -13% !important;
+      left: -85%;
+      
+    }
+    h1.aiah{
+      font-size: 16px;
+      top: -5%;
+      left: -75%;
+    }
+    h1.sheena{
+      font-size: 15px;
+      top: -20% !important;
+      left: -90%;
+    }
+    .details h2, .details p {
+      font-size: 18px;
+    }
+  
+    .slider-img.active {
+      width: 100% !important;
+      height: auto !important;
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .slider-container {
+      flex-direction: column;
+    }
+  
+    .audio-button img {
+      width: 200px;
+      margin-left: 40px;
+    }
+  
+    .audio-button p {
+      font-size: 18px;
+      margin-left: 35px;
+      
+    }
+
+    .audio-button:hover::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button.clicked::after {
+      background-color: transparent !important;
+      /* Remove the color property if you don't want to set a specific color */
+    }
+  
+    .audio-button:hover {
+      /* Additional styles to remove hover effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+  
+    .audio-button.clicked {
+      /* Additional styles to remove clicked effects if needed */
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+
+    .slider-images {
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 70px;
+      padding-left: 35px;
+    }
+  
+    .slider-img {
+      width: 80px;
+      
+    }
+  
+    .slider-images .slider-img:first-child, .slider-images .slider-img:last-child,
+    .slider-images .slider-img:nth-child(2), .slider-images .slider-img:nth-child(7),
+    .slider-images .slider-img:nth-child(3), .slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5), .slider-images .slider-img:nth-child(6) {
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 24px;
+      left: -90%;
+    }
+  
+   h1.gwen, h1.maloi, h1.colet, h1.mikha {
+      font-size: 16px;
+      top: 2%;
+      bottom: 60px;
+      left: -100%;
+    }
+
+    h1.jo{
+      font-size: 10px;
+      top: -20% !important;
+      left: -85%;
+      
+      
+    }
+    h1.stacey{
+      font-size: 15px;
+      top: -13% !important;
+      left: -85%;
+      
+    }
+    h1.aiah{
+      font-size: 16px;
+      top: -5%;
+      left: -75%;
+    }
+    h1.sheena{
+      font-size: 15px;
+      top: -20% !important;
+      left: -90%;
+    }
+    .details h2, .details p {
+      font-size: 18px;
+    }
+  
+    .slider-img.active {
+      width: 100% !important;
+      height: auto !important;
+      margin-right: 20px;
     }
   }
 
