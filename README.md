@@ -1,6 +1,6 @@
 ## BINI :cherry_blossom:
 
-Tangina ang saya saya ang sarap ng kopiko - (Malupiton-Mikhamot) [LIVE RAW LINK](https://raw.githack.com/RayTzie/BINI/main/bini.html)
+Tangina ang saya saya ang sarap ng kopiko - (Malupiton-Mikhamot) [LIVE LINK](https://raw.githack.com/RayTzie/BINI/main/bini.html)
 
 <div style="display: inline_block"><br>
 
